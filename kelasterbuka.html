@@ -1,0 +1,234 @@
+<!DOCTYPE html> 
+<!-- DOCTYPE = document type html -->
+<html lang="en">
+    <!-- html lang=language(bahasa) "en"=inggris -->
+<head>
+    <!-- <head> = tag untuk kepala dari sebuah html -->
+    <meta charset="UTF-8">
+    <!-- meta = kode-kode yang menyediakan informasi tentang sebuah halaman web kepada mesin pencari dan browser (SEO friendly) -->
+     <!-- UTF-8 =sistem pengkodean karakter (character encoding) yang umum digunakan, khususnya di internet dan berbagai aplikasi berbasis web -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tag meta yang mengatur tampilan halaman web di berbagai perangkat, terutama di perangkat seluler -->
+    <title>Document</title>
+    <!-- elemen HTML yang digunakan untuk memberikan judul pada halaman web yang mucul paling atas di halaman web -->
+    <link rel="stylesheet" href="hoho.css">
+    <!--link = elemen interaktif yang menghubungkan satu halaman web atau sumber daya online ke halaman atau sumber daya lain -->
+     <!-- rel = digunakan untuk menentukan hubungan antara sumber daya yang ditautkan dan dokumen saat ini -->
+</head>
+<body>
+    <!-- bagian yang membungkus semua isi tampilan di dalam html -->
+     <h1>dokumentasi tag</h1>
+     <!-- h1 adalah tag untuk tag header level dengan berbagai level, yang digunakan untuk menandai judul utama atau topik utama sebuah halaman web -->
+      <h2>AMBOY</h2>
+      <h3>AMBOY</h3>
+      <h4>AMBOY</h4>
+      <h5>AMBOY</h5>
+      <h6>AMBOY</h6>
+      <!-- Ini adalah level dari tag header dengan levelnya -->
+       <br> 
+       <!-- untuk menambah enter/garis baru  -->
+       <p>Untuk menjadi pribadi yang lebih baik, kamu harus berani untuk berubah dan keluar dari <u><b><i>zona nyaman</i></b></u>.
+         Perubahan ini tentu saja tidak mudah, 
+         kamu harus lebih sabar lagi untuk belajar menyesuaikan diri dengan kosisten agar bisa mencapai tujuan yang kamu mau</p>
+       <!-- adalah tag untuk paragraf -->
+        <!--<i>untuk font menjadi miring -->
+        <!--<b>untuk bold/tebal -->
+        <!-- <u>untuk teks garis bawah -->
+        </br>
+            <hr>
+            <!-- untuk menambahkan tampilan garis -->
+        <p>contoh superscript dan subscript
+            E=MC<sup>2</sup>,
+            CO<sub>2</sub>
+        </p>
+        <br>
+        <hr>
+        <!-- em =emphasis -->
+         <!-- strong -->
+          <!-- q = quote -->
+           <!-- blockquote -->
+        <p>
+            Supaya kamu bisa tetap <strong>semangat</strong> berubah jadi pribadi lebih <em>baik</em>, 
+            kamu bisa membaca kata-kata <q>motivasi menjadi pribadi lebih baik</q>.
+
+            <blockquote>tetap semangat dan jangan publis saat belajarmu ok</blockquote> 
+        </p>
+            <!-- abbr,acronym,dfn,cite,del,ins -->
+        <p><abbr title="Sekolah dasar">SD</abbr> 
+            <acronym title="desa lautan yang pasti jaya">SAMUDERAJAYA</acronym> adalah sekolah <dfn>di desa</dfn>  samudera jaya -<cite>sakadaek</cite>
+            karena dulunya adalah <del>cimahi</del> bukan <ins>samuderajaya</ins>
+            <hr>
+            ordered list
+            <ol>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+            </ol>
+            <hr>
+            undered list
+            <ul>
+                <li>2</li>
+                <li>2</li>
+                <li>2</li>
+                <li>2</li>
+                <li>2</li>
+            </ul>
+            <hr>
+            ini defini list
+            <dl>
+                <dt>coba aja</dt>
+                <dd>oke saya coba </dd>
+            </dl>
+        </p>
+        <hr>
+        <!-- tentang tag a dan contoh attribut contoh href dan masih banyak lagi -->
+        <p>
+            biasanaya untuk memberikan link kedalam teks contohnya ini -
+            <a href="#">ini link kan</a>
+            <hr>
+        </p>
+        <h4>tabel</h4>
+            <table border="1px">
+                <!-- attributnya  -->
+                 <!-- tr baris -->
+                  <!-- td data -->
+                   <!-- th header -->
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+            </table>
+            <hr>
+            <table border="1px">
+                  <th>no</th>  
+                  <th>number</th>  
+                  <th>huruf</th>  
+                  <th>gaktau</th> 
+                   <tr>
+                        <td>1</td>
+                        <td colspan="2">hehehehehe</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">2</td> 
+                        <td>1</td> 
+                        <td>h</td> 
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                    </tr>
+            </table>
+            <br>
+            <hr>
+            <!-- form -->
+             <h3>form login</h3>
+             <form>
+                nama depan :<input type="text" placeholder="nama belakang"><br>
+                nama belakang :<input type="text" placeholder="nama depan"><br>
+                password :<input type="password" placeholder="masukan sandi"><br>
+                <h5>radio button</h5>
+                <input name="wni" type="radio" value="ya"><label for="ya">apakah kamu tidak setuju</label> <br>
+                <input name="wni" type="radio" value="ya"><label for="ya">apakah kamu setuju</label><br>
+                <input type="checkbox" name="apakah setuju kerja bakti"><label for="apakah kamu setuju kerja bakti">kerja bakti</label><br>
+                <br>
+                <h5>drop down list</h5>
+                <select name="pekerjaan">
+                    <option value="tani">tani</option>
+                    <option value="codinger">codinger</option>
+                </select>
+                <h5>upload file</h5>
+                <input type="file" name="foto" value="upload_foto">
+                <br>
+                <input type="button" name="daptar" value="daptar">   
+             </form>
+             <br>
+             <hr>
+             <h4>gambar</h4>
+             <!-- MULTIMEDIA -->
+             <!-- untuk input gambar -->
+              <!-- atribut biasanya src dan alt tapi bisa di tambah title -->
+             <img src="hoho.png" height="100px" width="100px" alt="lumba lumba" title="lumba-lumba">
+             <br>
+             <hr>
+             <h5>penggunaan attribut di img dengan align left</h5>
+             <p align="left"><img src="hoho.png" height="100px" width="100px" title="lumba lumba" align="left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec porttitor diam. Praesent fringilla dignissim consectetur. Morbi id aliquet dui, sed volutpat enim. Quisque ligula enim, gravida vel augue non, sollicitudin accumsan orci. Cras ornare egestas purus, id consectetur eros pulvinar nec. Sed nec magna eget turpis dapibus feugiat. Duis a luctus odio. Maecenas ultricies at felis eget tincidunt. Praesent a pretium risus. Praesent at fermentum mauris, at tincidunt magna.
+
+Curabitur vel est quis neque scelerisque tincidunt non sit amet erat. Curabitur vel lacus eget lectus dignissim ornare a eget tellus. Vivamus quis velit vel orci aliquam vulputate. Praesent luctus porttitor lacus sit amet faucibus. Suspendisse ultrices sapien libero, at pretium eros ornare ac. Sed augue lacus, luctus eu tortor ut, sagittis porttitor quam. Nulla et risus neque. Praesent lacinia mollis metus, nec faucibus ex consequat ac. Phasellus sit amet magna dictum, feugiat nisl et, luctus orci. Morbi aliquet augue tristique, blandit turpis nec, euismod libero. Aenean dapibus auctor nulla ut congue.
+            </p>
+            <br>
+             <h5>penggunaan attribut di img dengan align right</h5>
+             <p align="right"><img src="hoho.png" height="100px" width="100px" title="lumba lumba" align="right">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec porttitor diam. Praesent fringilla dignissim consectetur. Morbi id aliquet dui, sed volutpat enim. Quisque ligula enim, gravida vel augue non, sollicitudin accumsan orci. Cras ornare egestas purus, id consectetur eros pulvinar nec. Sed nec magna eget turpis dapibus feugiat. Duis a luctus odio. Maecenas ultricies at felis eget tincidunt. Praesent a pretium risus. Praesent at fermentum mauris, at tincidunt magna.
+
+Curabitur vel est quis neque scelerisque tincidunt non sit amet erat. Curabitur vel lacus eget lectus dignissim ornare a eget tellus. Vivamus quis velit vel orci aliquam vulputate. Praesent luctus porttitor lacus sit amet faucibus. Suspendisse ultrices sapien libero, at pretium eros ornare ac. Sed augue lacus, luctus eu tortor ut, sagittis porttitor quam. Nulla et risus neque. Praesent lacinia mollis metus, nec faucibus ex consequat ac. Phasellus sit amet magna dictum, feugiat nisl et, luctus orci. Morbi aliquet augue tristique, blandit turpis nec, euismod libero. Aenean dapibus auctor nulla ut congue.
+             <br>
+             <h5>penggunaan attribut di img dengan align middle</h5>
+             <p align="center"><img src="hoho.png" height="100px" width="100px" title="lumba lumba" align="middle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec porttitor diam. Praesent fringilla dignissim consectetur. Morbi id aliquet dui, sed volutpat enim. Quisque ligula enim, gravida vel augue non, sollicitudin accumsan orci. Cras ornare egestas purus, id consectetur eros pulvinar nec. Sed nec magna eget turpis dapibus feugiat. Duis a luctus odio. Maecenas ultricies at felis eget tincidunt. Praesent a pretium risus. Praesent at fermentum mauris, at tincidunt magna.
+
+Curabitur vel est quis neque scelerisque tincidunt non sit amet erat. Curabitur vel lacus eget lectus dignissim ornare a eget tellus. Vivamus quis velit vel orci aliquam vulputate. Praesent luctus porttitor lacus sit amet faucibus. Suspendisse ultrices sapien libero, at pretium eros ornare ac. Sed augue lacus, luctus eu tortor ut, sagittis porttitor quam. Nulla et risus neque. Praesent lacinia mollis metus, nec faucibus ex consequat ac. Phasellus sit amet magna dictum, feugiat nisl et, luctus orci. Morbi aliquet augue tristique, blandit turpis nec, euismod libero. Aenean dapibus auctor nulla ut congue.
+             </p>
+             <br>
+             <h5>penggunaan attribut di img dengan align justify</h5>
+             <p><img src="hoho.png" height="100px" width="100px" title="lumba lumba" align="justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec porttitor diam. Praesent fringilla dignissim consectetur. Morbi id aliquet dui, sed volutpat enim. Quisque ligula enim, gravida vel augue non, sollicitudin accumsan orci. Cras ornare egestas purus, id consectetur eros pulvinar nec. Sed nec magna eget turpis dapibus feugiat. Duis a luctus odio. Maecenas ultricies at felis eget tincidunt. Praesent a pretium risus. Praesent at fermentum mauris, at tincidunt magna.
+
+Curabitur vel est quis neque scelerisque tincidunt non sit amet erat. Curabitur vel lacus eget lectus dignissim ornare a eget tellus. Vivamus quis velit vel orci aliquam vulputate. Praesent luctus porttitor lacus sit amet faucibus. Suspendisse ultrices sapien libero, at pretium eros ornare ac. Sed augue lacus, luctus eu tortor ut, sagittis porttitor quam. Nulla et risus neque. Praesent lacinia mollis metus, nec faucibus ex consequat ac. Phasellus sit amet magna dictum, feugiat nisl et, luctus orci. Morbi aliquet augue tristique, blandit turpis nec, euismod libero. Aenean dapibus auctor nulla ut congue.
+             </p>
+             <br>
+             <h5>penggunaan attribut di img dengan align top</h5>
+             <p><img src="hoho.png" height="100px" width="100px" title="lumba lumba" align="top">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec porttitor diam. Praesent fringilla dignissim consectetur. Morbi id aliquet dui, sed volutpat enim. Quisque ligula enim, gravida vel augue non, sollicitudin accumsan orci. Cras ornare egestas purus, id consectetur eros pulvinar nec. Sed nec magna eget turpis dapibus feugiat. Duis a luctus odio. Maecenas ultricies at felis eget tincidunt. Praesent a pretium risus. Praesent at fermentum mauris, at tincidunt magna.
+
+Curabitur vel est quis neque scelerisque tincidunt non sit amet erat. Curabitur vel lacus eget lectus dignissim ornare a eget tellus. Vivamus quis velit vel orci aliquam vulputate. Praesent luctus porttitor lacus sit amet faucibus. Suspendisse ultrices sapien libero, at pretium eros ornare ac. Sed augue lacus, luctus eu tortor ut, sagittis porttitor quam. Nulla et risus neque. Praesent lacinia mollis metus, nec faucibus ex consequat ac. Phasellus sit amet magna dictum, feugiat nisl et, luctus orci. Morbi aliquet augue tristique, blandit turpis nec, euismod libero. Aenean dapibus auctor nulla ut congue.
+             </p>
+             <br>
+             <h5>penggunaan attribut di img dengan align bottom</h5>
+             <p><img src="hoho.png" height="100px" width="100px" title="lumba lumba" align="bottom">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec porttitor diam. Praesent fringilla dignissim consectetur. Morbi id aliquet dui, sed volutpat enim. Quisque ligula enim, gravida vel augue non, sollicitudin accumsan orci. Cras ornare egestas purus, id consectetur eros pulvinar nec. Sed nec magna eget turpis dapibus feugiat. Duis a luctus odio. Maecenas ultricies at felis eget tincidunt. Praesent a pretium risus. Praesent at fermentum mauris, at tincidunt magna.
+
+Curabitur vel est quis neque scelerisque tincidunt non sit amet erat. Curabitur vel lacus eget lectus dignissim ornare a eget tellus. Vivamus quis velit vel orci aliquam vulputate. Praesent luctus porttitor lacus sit amet faucibus. Suspendisse ultrices sapien libero, at pretium eros ornare ac. Sed augue lacus, luctus eu tortor ut, sagittis porttitor quam. Nulla et risus neque. Praesent lacinia mollis metus, nec faucibus ex consequat ac. Phasellus sit amet magna dictum, feugiat nisl et, luctus orci. Morbi aliquet augue tristique, blandit turpis nec, euismod libero. Aenean dapibus auctor nulla ut congue.
+             </p>
+             <br>
+             <h5>penggunaan attribut di img ukuran agar ukurannya otomatis</h5>
+             <img src="hoho.png" width="100%" title="lumba-lumba" alt="avatar">
+             <img src="hoho.png" width="50%" title="lumba-lumba" alt="avatar">
+             <br>
+             <hr>
+             <!-- MEMASUKAN VIDEO DAN ATTRIBUT CONTROLNYA -->
+             <h5>input video</h5>
+             <video src="CEK.mp4" 
+             preload="none"
+             width="50%" 
+             controls 
+             title="tutorial"
+             poster="gaktau.png"
+            ><!-- (preload="none" ,) --></video>
+            <br>
+             <hr>
+             <!-- MEMASUKAN MUSIC DAN ATTRIBUT CONTROLNYA -->
+             <h5>input MP3</h5>
+             <audio src="MUSIC2.mp3"
+             controls
+             loop
+             ></audio>
+             <br>
+             <hr>
+             <!-- MEMASUKAN MUSIC DAN ATTRIBUT CONTROLNYA -->
+             <h5>gaktau</h5>
+</body>
+</html>
